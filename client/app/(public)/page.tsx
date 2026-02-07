@@ -30,7 +30,7 @@ const Login = () => {
       await signin(data).unwrap()
       toast.success("user login success")
       reset()
-      router.push("/admin")
+      router.push("https://client-tau-azure.vercel.app/register")
     } catch (error) {
       console.log(error)
       toast.error("unable to login")
