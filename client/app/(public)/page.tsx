@@ -96,6 +96,24 @@ const Login = () => {
           Login
         </button>
 
+        <div className="flex justify-center mt-6">
+          <a
+            href="https://client-tau-azure.vercel.app/register"
+            className="
+      inline-flex items-center justify-center
+      px-8 py-3
+      bg-black text-white
+      rounded-xl font-semibold text-sm
+      shadow-md
+      hover:bg-gray-900
+      active:scale-95
+      transition-all duration-200
+    "
+          >
+            Register Here
+          </a>
+        </div>
+
       </div>
     </form>
   </>
